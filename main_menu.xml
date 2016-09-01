@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/txtclr"
+        android:title="TEXT COLOR"
+        app:showAsAction="always"
+        >
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/redclr"
+                android:title="RED" />
+            <item android:id="@+id/blueclr"
+                android:title="BLUE" />
+            <item android:id="@+id/purpleclr"
+                android:title="PURPLE" />
+        </menu>
+    </item>
+</menu>
